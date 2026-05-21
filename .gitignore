@@ -1,0 +1,14 @@
+.DS_Store
+
+/raycast
+/mole
+/linearmouse
+/github-copilot
+/gh
+
+/zsh/*
+!/zsh/.zshrc
+
+/zed/*
+!/zed/settings.json
+!/zed/themes

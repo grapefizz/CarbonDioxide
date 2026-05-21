@@ -1,0 +1,21 @@
+theme = Oxocarbon
+macos-titlebar-style = hidden
+window-theme = auto
+
+shell-integration = zsh
+shell-integration-features = cursor
+
+cursor-click-to-move = true
+
+
+window-padding-x = 15
+window-padding-y = 15
+quit-after-last-window-closed = true
+mouse-hide-while-typing = true
+
+font-size = 16
+font-family = "Lilex Nerd Font Mono"
+
+quick-terminal-position = top
+quick-terminal-animation-duration = 0.2
+keybind = global:ctrl+cmd+option+t=toggle_quick_terminal
