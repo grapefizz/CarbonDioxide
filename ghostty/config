@@ -10,6 +10,8 @@ cursor-click-to-move = true
 
 window-padding-x = 15
 window-padding-y = 15
+window-padding-balance = true
+
 quit-after-last-window-closed = true
 mouse-hide-while-typing = true
 
