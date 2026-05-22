@@ -11,4 +11,5 @@
 
 /zed/*
 !/zed/settings.json
+!/zed/keymap.json
 !/zed/themes
