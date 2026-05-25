@@ -2,8 +2,10 @@
   {
     "context": "VimControl && !menu",
     "bindings": {
+      "space": null,
       "space w": "workspace::Save",
       "space q": "pane::CloseActiveItem",
+      "space f": "file_finder::Toggle",
       "g c": ["editor::ToggleComments", { "advance_downwards": false }],
     },
   },
@@ -27,12 +29,6 @@
       "ctrl-j": "workspace::ActivatePaneDown",
       "ctrl-k": "workspace::ActivatePaneUp",
       "ctrl-l": "workspace::ActivatePaneRight",
-    },
-  },
-  {
-    "context": "Workspace",
-    "bindings": {
-      "space f": "file_finder::Toggle",
     },
   },
 ]
