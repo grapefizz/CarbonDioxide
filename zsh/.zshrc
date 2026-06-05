@@ -1,5 +1,5 @@
 export ZSH="$HOME/.oh-my-zsh"
-plugins=(git zsh-syntax-highlighting fzf-tab zsh-autosuggestions)
+plugins=(sudo extract git zsh-syntax-highlighting fzf-tab zsh-autosuggestions)
 export HOMEBREW_NO_ENV_HINTS=1
 
 export PATH=$PATH:/Users/ari/.spicetify
@@ -11,7 +11,6 @@ prompt zen
 # Added by Antigravity
 export PATH="/Users/ari/.antigravity/antigravity/bin:$PATH"
 alias brew-sync='brew bundle dump --file=~/.config/Brewfile --force --no-vscode'
-alias lvim="/Users/ari/.local/bin/lvim"
 alias c="clear"
 
 alias ls="eza --icons"

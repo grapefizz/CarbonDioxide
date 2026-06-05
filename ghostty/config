@@ -1,4 +1,5 @@
 theme = Oxocarbon
+macos-icon = paper
 macos-titlebar-style = tabs
 macos-titlebar-proxy-icon = hidden
 window-decoration = auto

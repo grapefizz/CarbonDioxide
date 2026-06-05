@@ -1,20 +1,21 @@
-tap "alecharmon/tap"
-tap "asmvik/formulae"
-tap "browsh-org/browsh"
-tap "cjbassi/gotop"
-tap "felixkratz/formulae"
-tap "gcenx/wine"
-tap "hashicorp/tap"
-tap "izyumidev/xcode-discord-rpc"
-tap "koekeishiya/formulae"
-tap "minacle/chntpw"
-tap "nextfire/tap"
-tap "openresty/brew"
-tap "samtay/tui"
-tap "sidneys/homebrew"
-tap "sylvanfranklin/srhd"
-tap "teamookla/speedtest"
-tap "vladkens/tap"
+tap "alecharmon/tap", trusted: true
+tap "asmvik/formulae", trusted: true
+tap "browsh-org/browsh", trusted: true
+tap "cjbassi/gotop", trusted: true
+tap "felixkratz/formulae", trusted: true
+tap "gcenx/wine", trusted: true
+tap "giammarco-ferranti/deja", trusted: true
+tap "hashicorp/tap", trusted: true
+tap "izyumidev/xcode-discord-rpc", trusted: true
+tap "koekeishiya/formulae", trusted: true
+tap "minacle/chntpw", trusted: true
+tap "nextfire/tap", trusted: true
+tap "openresty/brew", trusted: true
+tap "samtay/tui", trusted: true
+tap "sidneys/homebrew", trusted: true
+tap "sylvanfranklin/srhd", trusted: true
+tap "teamookla/speedtest", trusted: true
+tap "vladkens/tap", trusted: true
 brew "aom"
 brew "openssl@3"
 brew "aria2"
@@ -47,7 +48,7 @@ brew "colima"
 brew "coreutils"
 brew "dbus"
 brew "deno"
-brew "docker"
+brew "docker", link: false
 brew "gnutls"
 brew "unbound"
 brew "emacs"
@@ -88,6 +89,7 @@ brew "lsd"
 brew "luarocks"
 brew "luau"
 brew "mas"
+brew "unixodbc"
 brew "mdbtools"
 brew "midnight-commander"
 brew "mint"
@@ -110,6 +112,7 @@ brew "pyenv"
 brew "python@3.11"
 brew "python@3.12"
 brew "python@3.13"
+brew "ripgrep"
 brew "ruby"
 brew "rustup"
 brew "s-search"
@@ -118,11 +121,11 @@ brew "sdl3_ttf"
 brew "spicetify-cli", link: false
 brew "startup-notification"
 brew "switchaudio-osx"
+brew "television"
 brew "telnet"
 brew "tldr"
 brew "tree"
 brew "tty-clock"
-brew "unixodbc"
 brew "up"
 brew "vapor"
 brew "vite"
@@ -152,6 +155,7 @@ cask "font-lilex-nerd-font"
 cask "font-sf-mono"
 cask "font-sf-pro"
 cask "ghostty"
+cask "gimp"
 cask "linearmouse"
 cask "loop"
 cask "mattermost"
@@ -160,6 +164,7 @@ cask "monitorcontrol"
 cask "notion"
 cask "notion-calendar"
 cask "obs"
+cask "obsidian"
 cask "platypus"
 cask "prismlauncher"
 cask "raycast"
@@ -172,7 +177,7 @@ cask "viber"
 cask "zed"
 cask "zerotier-one"
 mas "AdBlock", id: 1402042596
-mas "Bluebook Exams", id: 1645016851
+mas "Bluebook", id: 1645016851
 mas "Folder Preview", id: 6698876601
 mas "GamepadMapper", id: 1517291304
 mas "Gapplin", id: 768053424
@@ -182,12 +187,6 @@ mas "RetroClip", id: 1332064978
 mas "Teleparty For Safari", id: 6471985961
 mas "Urban VPN Desktop", id: 1517772049
 mas "Xcode", id: 497799835
-vscode "anthropic.claude-code"
-vscode "eamodio.gitlens"
-vscode "mhutchie.git-graph"
-vscode "ms-azuretools.vscode-containers"
-vscode "ms-vscode-remote.remote-containers"
-vscode "nyoomengineering.oxocarbon-vscode"
 cargo "tetro-tui"
 npm "neovim"
 npm "svelte"
